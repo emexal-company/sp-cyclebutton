@@ -1,0 +1,10 @@
+import { html } from 'lit-element';
+export default function standardTemplate() {
+    return html `
+<button class="spectrum-ActionButton spectrum-ActionButton--quiet spectrum-CycleButton">
+    <sp-icon name="18-PlayCircle" class=""></sp-icon>
+    <sp-icon name="18-PauseCircle" class=""></sp-icon>
+</button>
+   `;
+}
+//# sourceMappingURL=cyclebutton.template.js.map
